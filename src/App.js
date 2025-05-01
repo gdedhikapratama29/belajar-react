@@ -1,28 +1,14 @@
-import { useState } from 'react';
 import './App.css'
-import Perkenalan from './components/Perkenalan'
+import ProductList from './components/ProductList';
 
+function App ()  {
 
-
-
-const App = () => {
-
-    const [counter, setCounter] = useState(0);
-    const decrementCounter = () => {
-        setCounter(counter - 1);
-    }
-
-    const incrementCounter = () => {
-        setCounter(counter + 1);
-    }
-
-    return (
-        <div>
-            <button onClick={decrementCounter}>-</button>
-            <div>{counter}</div>
-            <button onClick={incrementCounter}>+</button>
-        </div>  
-    ) 
+    return(
+    <>
+    <div className='app-title'>jual mobil</div>
+    <ProductList /> 
+    </>
+    )
 }
 
 export default App;

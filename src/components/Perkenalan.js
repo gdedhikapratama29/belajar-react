@@ -2,6 +2,8 @@ import React from "react";
 
 const Perkenalan = (props) => {
 
+    const [jumlahProduct, setJumlahProduct] = useState(0);
+
     const handleClick = (nama) => {
         console.log('haii' + nama)
     }
