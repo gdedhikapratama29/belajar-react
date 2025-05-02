@@ -1,15 +1,13 @@
 import React from 'react'
 import ProductCart from '../components/ProductCart';
-import { Products } from '../data/Products';
-import { useState } from 'react';
 
-const ProductList = () => {
+const ProductList = ({products}) => {
   
 
   return (
     <div>
       <div className='cards'>
-            {Products.map((product) => {
+            {products.map((product) => {
                 return (
                     <ProductCart
                         key={product.id}

@@ -64,7 +64,7 @@
     padding: 10px;
     width: 400px;
     margin-bottom: 20px;
-    border: 2px solid rgb(108, 184, 247);
+    border: 2px solid     rgb(34,139,34);
     border-radius: 5px;
     box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
   }
@@ -166,7 +166,6 @@
   }
   .button {
     background: white;
-    color: rgb(108, 184, 247);
     border: none;
     font-size: 24px;
     cursor: pointer;
