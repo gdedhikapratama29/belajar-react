@@ -1,7 +1,7 @@
 import React from 'react'
 import ProductCart from '../components/ProductCart';
 
-const ProductList = ({products}) => {
+const ProductList = ({products, onDeleteProduct, onEditProduct}) => {
   
 
   return (
@@ -11,10 +11,9 @@ const ProductList = ({products}) => {
                 return (
                     <ProductCart
                         key={product.id}
-                        nama={product.nama}
-                        deskripsi={product.deskripsi}
-                        harga={product.harga}
-                        imageURL={product.imageURL}
+                        product={product}
+                        onDeleteProduct = {onDeleteProduct}
+                        onEditProduct = {onEditProduct}
                     />
                 )
             })}

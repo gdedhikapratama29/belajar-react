@@ -72,7 +72,7 @@
     padding: 10px;
     width: 200px;
     margin-bottom: 20px;
-    border: 2px solid rgb(108, 184, 247);
+    border: 2px solid rgb(3, 181, 3);
     border-radius: 5px;
     box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
   }
@@ -87,11 +87,12 @@
     border-radius: 5px;
     border: none;
     width: 100%;
-    color: white;
+    color: white;;
+    background-color: rgb(3, 181, 3);
     cursor: pointer;
   }
   .add-toggle {
-    background: rgb(108, 184, 247);
+    background: rgb(34,139,34);
     margin-bottom: 20px;
     width: 100px !important;
   }
